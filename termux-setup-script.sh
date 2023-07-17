@@ -3,9 +3,9 @@
 pkg update -y
 pkg install wget
 wget https://raw.githubusercontent.com/dracula/termux/master/colors.properties
-mv colors.properties ./todo-app/
+mv colors.properties ./.termux/
 wget https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/SourceCodePro/Regular/SauceCodeProNerdFontMono-Regular.ttf
-mv SauceCodeProNerdFontMono-Regular.ttf ./todo-app/font.ttf
+mv SauceCodeProNerdFontMono-Regular.ttf ./.termux/font.ttf
 clear
 echo customisation done
 pkg install nodejs-lts neovim git yarn ripgrep clang

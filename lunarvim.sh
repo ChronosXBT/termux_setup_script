@@ -8,7 +8,5 @@ wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCode
 mv SauceCodeProNerdFontMono-Regular.ttf ./.termux/font.ttf
 clear
 echo customisation done
-pkg install nodejs neovim git ripgrep clang
-clear
-pkg install make python rust
+pkg install nodejs neovim git ripgrep clang make python rust
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)

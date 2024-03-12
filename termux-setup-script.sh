@@ -8,8 +8,8 @@ wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/SourceCode
 mv SauceCodeProNerdFontMono-Regular.ttf ./.termux/font.ttf
 clear
 echo customisation done
-pkg install nodejs neovim git yarn ripgrep clang
+pkg install nodejs neovim git ripgrep clang
 clear
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim --depth 1 && nvim
